@@ -22,4 +22,4 @@ model.fit(X, y_labels)
 joblib.dump(vectorizer, "models/nace_vectorizer.pkl")
 joblib.dump(model, "models/nace_model.pkl")
 
-print("Training fertig & gespeichert!")
+print("Training done & saved!")
